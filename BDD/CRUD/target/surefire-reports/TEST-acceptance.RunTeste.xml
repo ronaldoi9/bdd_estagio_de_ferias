@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="0" name="acceptance.RunTeste" time="78.698" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/ronaldo/jdk1.8.0_111/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="acceptance.RunTeste"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/bdd-insumo/bdd-create"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/home/ronaldo/jdk1.8.0_111/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/ronaldo/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/home/ronaldo/netbeans-8.2/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/home/ronaldo/jdk1.8.0_111/jre/lib/amd64:/home/ronaldo/jdk1.8.0_111/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.19.0-5-amd64"/>
+    <property name="user.home" value="/home/ronaldo"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ronaldo"/>
+    <property name="java.class.path" value="/home/ronaldo/netbeans-8.2/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/home/ronaldo/jdk1.8.0_111/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=acceptance.RunTeste -Dmaven.ext.class.path=/home/ronaldo/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="/home/ronaldo/jdk1.8.0_111/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/home/ronaldo/jdk1.8.0_111/jre/lib/resources.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/rt.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/sunrsasign.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/jsse.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/jce.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/charsets.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/jfr.jar:/home/ronaldo/jdk1.8.0_111/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/ronaldo/netbeans-8.2/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| Uai Minas | garrafa | Uai Minas 800ml | 500 | 800 | Adicionado com sucesso |" name="Given Eu esteja na tela Insumos" time="0.001"/>
+  <testcase classname="| Uai Minas | garrafa | Uai Minas 800ml | 500 | 800 | Adicionado com sucesso |" name="And Clique no bot\u00E3o \&quot;ADICIONAR\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafa | Uai Minas 800ml | 500 | 800 | Adicionado com sucesso |" name="And Preencher os campos \&quot;Uai Minas\&quot;\u002C \&quot;garrafa\&quot;\u002C \&quot;Uai Minas 800ml\&quot;\u002C \&quot;500\&quot; e \&quot;800\&quot;" time="0.001"/>
+  <testcase classname="| Uai Minas | garrafa | Uai Minas 800ml | 500 | 800 | Adicionado com sucesso |" name="When Eu clicar no botao \&quot;ADICIONAR Insumo\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafa | Uai Minas 800ml | 500 | 800 | Adicionado com sucesso |" name="Then Eu devo ser capaz de visualizar os campos \&quot;Uai Minas\&quot;\u002C \&quot;garrafa\&quot;\u002C \&quot;Uai Minas 800ml\&quot;\u002C \&quot;500\&quot; e \&quot;800\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafa | Uai Minas 800ml | 500 | 800 | Adicionado com sucesso |" name="| Uai Minas | garrafa | Uai Minas 800ml | 500 | 800 | Adicionado com sucesso |" time="4.08"/>
+  <testcase classname="| Amburaninha | garrafa | Amburaninha 300ml | 340 | 300 | Adicionado com sucesso |" name="Given Eu esteja na tela Insumos" time="0"/>
+  <testcase classname="| Amburaninha | garrafa | Amburaninha 300ml | 340 | 300 | Adicionado com sucesso |" name="And Clique no bot\u00E3o \&quot;ADICIONAR\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafa | Amburaninha 300ml | 340 | 300 | Adicionado com sucesso |" name="And Preencher os campos \&quot;Amburaninha\&quot;\u002C \&quot;garrafa\&quot;\u002C \&quot;Amburaninha 300ml\&quot;\u002C \&quot;340\&quot; e \&quot;300\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafa | Amburaninha 300ml | 340 | 300 | Adicionado com sucesso |" name="When Eu clicar no botao \&quot;ADICIONAR Insumo\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafa | Amburaninha 300ml | 340 | 300 | Adicionado com sucesso |" name="Then Eu devo ser capaz de visualizar os campos \&quot;Amburaninha\&quot;\u002C \&quot;garrafa\&quot;\u002C \&quot;Amburaninha 300ml\&quot;\u002C \&quot;340\&quot; e \&quot;300\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafa | Amburaninha 300ml | 340 | 300 | Adicionado com sucesso |" name="| Amburaninha | garrafa | Amburaninha 300ml | 340 | 300 | Adicionado com sucesso |" time="3.466"/>
+  <testcase classname="| Caixa | caixa | Teste caixa | 20 | 60 | Adicionado com sucesso |" name="Given Eu esteja na tela Insumos" time="0"/>
+  <testcase classname="| Caixa | caixa | Teste caixa | 20 | 60 | Adicionado com sucesso |" name="And Clique no bot\u00E3o \&quot;ADICIONAR\&quot;" time="0"/>
+  <testcase classname="| Caixa | caixa | Teste caixa | 20 | 60 | Adicionado com sucesso |" name="And Preencher os campos \&quot;Caixa\&quot;\u002C \&quot;caixa\&quot;\u002C \&quot;Teste caixa\&quot;\u002C \&quot;20\&quot; e \&quot;60\&quot;" time="0"/>
+  <testcase classname="| Caixa | caixa | Teste caixa | 20 | 60 | Adicionado com sucesso |" name="When Eu clicar no botao \&quot;ADICIONAR Insumo\&quot;" time="0"/>
+  <testcase classname="| Caixa | caixa | Teste caixa | 20 | 60 | Adicionado com sucesso |" name="Then Eu devo ser capaz de visualizar os campos \&quot;Caixa\&quot;\u002C \&quot;caixa\&quot;\u002C \&quot;Teste caixa\&quot;\u002C \&quot;20\&quot; e \&quot;60\&quot;" time="0"/>
+  <testcase classname="| Caixa | caixa | Teste caixa | 20 | 60 | Adicionado com sucesso |" name="| Caixa | caixa | Teste caixa | 20 | 60 | Adicionado com sucesso |" time="3.679"/>
+</testsuite>

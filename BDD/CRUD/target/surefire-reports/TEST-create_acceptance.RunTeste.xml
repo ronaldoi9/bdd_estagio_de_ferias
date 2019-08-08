@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="66" failures="0" name="create_acceptance.RunTeste" time="262.474" errors="8" skipped="18">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/ronaldo/jdk1.8.0_111/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="create_acceptance.RunTeste"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/home/ronaldo/jdk1.8.0_111/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/ronaldo/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/home/ronaldo/netbeans-8.2/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/home/ronaldo/jdk1.8.0_111/jre/lib/amd64:/home/ronaldo/jdk1.8.0_111/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.19.0-5-amd64"/>
+    <property name="user.home" value="/home/ronaldo"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ronaldo"/>
+    <property name="java.class.path" value="/home/ronaldo/netbeans-8.2/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/home/ronaldo/jdk1.8.0_111/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=create_acceptance.RunTeste -Dmaven.ext.class.path=/home/ronaldo/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="/home/ronaldo/jdk1.8.0_111/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/home/ronaldo/jdk1.8.0_111/jre/lib/resources.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/rt.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/sunrsasign.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/jsse.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/jce.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/charsets.jar:/home/ronaldo/jdk1.8.0_111/jre/lib/jfr.jar:/home/ronaldo/jdk1.8.0_111/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/ronaldo/netbeans-8.2/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="Given Eu esteja na tela Inicial" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Clique no botao lateral \&quot;Insumo\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Clique no botao \&quot;ADICIONAR INSUMO\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="When Preencher os campos do insumo \&quot;Uai Minas\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Uai Minas 800ml\&quot;\u002C \&quot;500\&quot; e \&quot;800\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Clique no botao \&quot;CONFIRMAR\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="Then Devo receber a mensagem \&quot;Insumo adicionado com sucesso!\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Clicar no botao de alerta \&quot;OK\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Eu devo ser capaz de visualizar os campos do insumo \&quot;Uai Minas\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Uai Minas 800ml\&quot;\u002C \&quot;500\&quot; e \&quot;800\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" time="4.461"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="Given Eu esteja na tela Inicial" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Clique no botao lateral \&quot;Insumo\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Clique no botao \&quot;ADICIONAR INSUMO\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="When Preencher os campos do insumo \&quot;Amburaninha\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Amburaninha 300ml\&quot;\u002C \&quot;340\&quot; e \&quot;300\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Clique no botao \&quot;CONFIRMAR\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="Then Devo receber a mensagem \&quot;Insumo adicionado com sucesso!\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Clicar no botao de alerta \&quot;OK\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="And Eu devo ser capaz de visualizar os campos do insumo \&quot;Amburaninha\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Amburaninha 300ml\&quot;\u002C \&quot;340\&quot; e \&quot;300\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" name="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Insumo adicionado com sucesso! | OK | CONFIRMAR |" time="5.375"/>
+  <testcase classname="| Uai Minas |" name="Given Eu esteja na tela Inicial" time="0"/>
+  <testcase classname="| Uai Minas |" name="When Clique no botao lateral \&quot;Insumo\&quot;" time="0"/>
+  <testcase classname="| Uai Minas |" name="And Preencher o campo de pesquisa por \&quot;Uai Minas\&quot;" time="0"/>
+  <testcase classname="| Uai Minas |" name="Then Eu devo ser capaz de visualizar o campo \&quot;Uai Minas\&quot;" time="0"/>
+  <testcase classname="| Uai Minas |" name="| Uai Minas |" time="4.19"/>
+  <testcase classname="| Amburaninha |" name="Given Eu esteja na tela Inicial" time="0"/>
+  <testcase classname="| Amburaninha |" name="When Clique no botao lateral \&quot;Insumo\&quot;" time="0"/>
+  <testcase classname="| Amburaninha |" name="And Preencher o campo de pesquisa por \&quot;Amburaninha\&quot;" time="0"/>
+  <testcase classname="| Amburaninha |" name="Then Eu devo ser capaz de visualizar o campo \&quot;Amburaninha\&quot;" time="0"/>
+  <testcase classname="| Amburaninha |" name="| Amburaninha |" time="4.363"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="Given Eu esteja na tela Inicial" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Clique no botao lateral \&quot;Insumo\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="When Clicar no botao \&quot;Editar\&quot; do insumo com os campos \&quot;Uai Minas\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Uai Minas 800ml\&quot;\u002C \&quot;500\&quot; e \&quot;800\&quot;" time="0"/>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Alterar os campos do insumo com \&quot;Trem Minas\&quot;\u002C \&quot;300\&quot; e \&quot;700\&quot;" time="0.02">
+    <error message="Unable to locate element: *[name=&apos;nome&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30316, moz:profile: /tmp/rust_mozprofile.dSZIPA..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e8b8ef3-bdb1-4b19-b4e1-1b66b893c73b
+*** Element info: {Using=name, value=nome}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;nome&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30316, moz:profile: /tmp/rust_mozprofile.dSZIPA..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e8b8ef3-bdb1-4b19-b4e1-1b66b893c73b
+*** Element info: {Using=name, value=nome}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.alterar_os_campos_do_insumo_com(stepDefinitions.java:205)
+	at ✽.And Alterar os campos do insumo com &quot;Trem Minas&quot;, &quot;300&quot; e &quot;700&quot;(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:46)
+</error>
+  </testcase>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" time="0.021">
+    <error message="Unable to locate element: *[name=&apos;nome&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30316, moz:profile: /tmp/rust_mozprofile.dSZIPA..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e8b8ef3-bdb1-4b19-b4e1-1b66b893c73b
+*** Element info: {Using=name, value=nome}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;nome&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30316, moz:profile: /tmp/rust_mozprofile.dSZIPA..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e8b8ef3-bdb1-4b19-b4e1-1b66b893c73b
+*** Element info: {Using=name, value=nome}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.alterar_os_campos_do_insumo_com(stepDefinitions.java:205)
+	at ✽.And Alterar os campos do insumo com &quot;Trem Minas&quot;, &quot;300&quot; e &quot;700&quot;(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:46)
+</error>
+  </testcase>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Clique no botao \&quot;CONFIRMAR\&quot;" time="0.021">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="Then Devo receber a mensagem \&quot;Insumo adicionado com sucesso!\&quot;" time="0.021">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Clicar no botao de alerta \&quot;OK\&quot;" time="0.021">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Eu devo ser capaz de visualizar os campos do insumo \&quot;Trem Minas\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Uai Minas 800ml\&quot;\u002C \&quot;300\&quot; e \&quot;700\&quot;" time="0.021">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="Given Eu esteja na tela Inicial" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Clique no botao lateral \&quot;Insumo\&quot;" time="0"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="When Clicar no botao \&quot;Editar\&quot; do insumo com os campos \&quot;Amburaninha\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Amburaninha 300ml\&quot;\u002C \&quot;340\&quot; e \&quot;300\&quot;" time="0.001"/>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Alterar os campos do insumo com \&quot;Ambura\&quot;\u002C \&quot;400\&quot; e \&quot;500\&quot;" time="0">
+    <error message="Index: 20, Size: 20" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 20, Size: 20
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at stepDef.stepDefinitions.alterar_os_campos_do_insumo_com(stepDefinitions.java:209)
+	at ✽.And Alterar os campos do insumo com &quot;Ambura&quot;, &quot;400&quot; e &quot;500&quot;(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:46)
+</error>
+  </testcase>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" time="0">
+    <error message="Index: 20, Size: 20" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 20, Size: 20
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at stepDef.stepDefinitions.alterar_os_campos_do_insumo_com(stepDefinitions.java:209)
+	at ✽.And Alterar os campos do insumo com &quot;Ambura&quot;, &quot;400&quot; e &quot;500&quot;(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:46)
+</error>
+  </testcase>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Clique no botao \&quot;CONFIRMAR\&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="Then Devo receber a mensagem \&quot;Insumo adicionado com sucesso!\&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Clicar no botao de alerta \&quot;OK\&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |" name="And Eu devo ser capaz de visualizar os campos do insumo \&quot;Ambura\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Amburaninha 300ml\&quot;\u002C \&quot;400\&quot; e \&quot;500\&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="Given Eu esteja na tela Inicial" time="0"/>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Clique no botao lateral \&quot;Insumo\&quot;" time="0"/>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="When Clicar no botao \&quot;Excluir\&quot; do insumo com os campos \&quot;Trem Minas\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Uai Minas 800ml\&quot;\u002C \&quot;300\&quot; e \&quot;700\&quot;" time="0"/>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Devo receber a mensagem \&quot;Voc\u00EA tem certeza que deseja remover esses dados ?\&quot;" time="0.005">
+    <error message="Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30674, moz:profile: /tmp/rust_mozprofile.rjAAmx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 71974260-4885-44db-a005-e8942058ec5b
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30674, moz:profile: /tmp/rust_mozprofile.rjAAmx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 71974260-4885-44db-a005-e8942058ec5b
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.devo_receber_a_mensagem(stepDefinitions.java:93)
+	at ✽.And Devo receber a mensagem &quot;Você tem certeza que deseja remover esses dados ?&quot;(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:67)
+</error>
+    <system-err>console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565222410127%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+</system-err>
+  </testcase>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" time="0.005">
+    <error message="Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30674, moz:profile: /tmp/rust_mozprofile.rjAAmx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 71974260-4885-44db-a005-e8942058ec5b
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30674, moz:profile: /tmp/rust_mozprofile.rjAAmx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 71974260-4885-44db-a005-e8942058ec5b
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.devo_receber_a_mensagem(stepDefinitions.java:93)
+	at ✽.And Devo receber a mensagem &quot;Você tem certeza que deseja remover esses dados ?&quot;(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:67)
+</error>
+  </testcase>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Clicar no botao de alerta \&quot;SIM\&quot;" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="Then Devo receber a mensagem \&quot;Objeto deletado com sucesso!\&quot;" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Clicar no botao de alerta \&quot;OK\&quot;" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Preencher o campo de pesquisa por \&quot;Trem Minas\&quot;" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And A saida deve ser \&quot;\&quot;" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="Given Eu esteja na tela Inicial" time="0"/>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Clique no botao lateral \&quot;Insumo\&quot;" time="0"/>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="When Clicar no botao \&quot;Excluir\&quot; do insumo com os campos \&quot;Ambura\&quot;\u002C \&quot;garrafas\&quot;\u002C \&quot;Amburaninha 300ml\&quot;\u002C \&quot;400\&quot; e \&quot;500\&quot;" time="0"/>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Devo receber a mensagem \&quot;Voc\u00EA tem certeza que deseja remover esses dados ?\&quot;" time="0.002">
+    <error message="Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30854, moz:profile: /tmp/rust_mozprofile.7QHPd7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a846b17-d7ad-40dc-967d-bd4c80fea164
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30854, moz:profile: /tmp/rust_mozprofile.7QHPd7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a846b17-d7ad-40dc-967d-bd4c80fea164
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.devo_receber_a_mensagem(stepDefinitions.java:93)
+	at ✽.And Devo receber a mensagem &quot;Você tem certeza que deseja remover esses dados ?&quot;(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:67)
+</error>
+  </testcase>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" time="0.003">
+    <error message="Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30854, moz:profile: /tmp/rust_mozprofile.7QHPd7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a846b17-d7ad-40dc-967d-bd4c80fea164
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Debian&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.0-5-amd64&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30854, moz:profile: /tmp/rust_mozprofile.7QHPd7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a846b17-d7ad-40dc-967d-bd4c80fea164
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.devo_receber_a_mensagem(stepDefinitions.java:93)
+	at ✽.And Devo receber a mensagem &quot;Você tem certeza que deseja remover esses dados ?&quot;(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:67)
+</error>
+  </testcase>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Clicar no botao de alerta \&quot;SIM\&quot;" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="Then Devo receber a mensagem \&quot;Objeto deletado com sucesso!\&quot;" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Clicar no botao de alerta \&quot;OK\&quot;" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And Preencher o campo de pesquisa por \&quot;Ambura\&quot;" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |" name="And A saida deve ser \&quot;\&quot;" time="0.005">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,166 @@
+-------------------------------------------------------------------------------
+Test set: create_acceptance.RunTeste
+-------------------------------------------------------------------------------
+Tests run: 66, Failures: 0, Errors: 8, Skipped: 18, Time elapsed: 262.471 sec <<< FAILURE!
+And Alterar os campos do insumo com \"Trem Minas\"\u002C \"300\" e \"700\"(| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |)  Time elapsed: 0.02 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='nome']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-5-amd64', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30316, moz:profile: /tmp/rust_mozprofile.dSZIPA..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e8b8ef3-bdb1-4b19-b4e1-1b66b893c73b
+*** Element info: {Using=name, value=nome}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.alterar_os_campos_do_insumo_com(stepDefinitions.java:205)
+	at ✽.And Alterar os campos do insumo com "Trem Minas", "300" e "700"(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:46)
+| Uai Minas | garrafas | Uai Minas 800ml | 500 | 800 | Trem Minas | 300 | 700 | CONFIRMAR | Insumo adicionado com sucesso! | OK |  Time elapsed: 0.021 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='nome']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-5-amd64', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30316, moz:profile: /tmp/rust_mozprofile.dSZIPA..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e8b8ef3-bdb1-4b19-b4e1-1b66b893c73b
+*** Element info: {Using=name, value=nome}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.alterar_os_campos_do_insumo_com(stepDefinitions.java:205)
+	at ✽.And Alterar os campos do insumo com "Trem Minas", "300" e "700"(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:46)
+And Alterar os campos do insumo com \"Ambura\"\u002C \"400\" e \"500\"(| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 20, Size: 20
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at stepDef.stepDefinitions.alterar_os_campos_do_insumo_com(stepDefinitions.java:209)
+	at ✽.And Alterar os campos do insumo com "Ambura", "400" e "500"(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:46)
+| Amburaninha | garrafas | Amburaninha 300ml | 340 | 300 | Ambura | 400 | 500 | CONFIRMAR | Insumo adicionado com sucesso! | OK |  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 20, Size: 20
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at stepDef.stepDefinitions.alterar_os_campos_do_insumo_com(stepDefinitions.java:209)
+	at ✽.And Alterar os campos do insumo com "Ambura", "400" e "500"(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:46)
+And Devo receber a mensagem \"Voc\u00EA tem certeza que deseja remover esses dados ?\"(| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |)  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-5-amd64', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30674, moz:profile: /tmp/rust_mozprofile.rjAAmx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 71974260-4885-44db-a005-e8942058ec5b
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.devo_receber_a_mensagem(stepDefinitions.java:93)
+	at ✽.And Devo receber a mensagem "Você tem certeza que deseja remover esses dados ?"(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:67)
+| Trem Minas | garrafas | Uai Minas 800ml | 300 | 700 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-5-amd64', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30674, moz:profile: /tmp/rust_mozprofile.rjAAmx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 71974260-4885-44db-a005-e8942058ec5b
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.devo_receber_a_mensagem(stepDefinitions.java:93)
+	at ✽.And Devo receber a mensagem "Você tem certeza que deseja remover esses dados ?"(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:67)
+And Devo receber a mensagem \"Voc\u00EA tem certeza que deseja remover esses dados ?\"(| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-5-amd64', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30854, moz:profile: /tmp/rust_mozprofile.7QHPd7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a846b17-d7ad-40dc-967d-bd4c80fea164
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.devo_receber_a_mensagem(stepDefinitions.java:93)
+	at ✽.And Devo receber a mensagem "Você tem certeza que deseja remover esses dados ?"(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:67)
+| Ambura | garrafas | Amburaninha 300ml | 400 | 500 | OK |  | Voc\u00EA tem certeza que deseja remover esses dados ? | SIM | Objeto deletado com sucesso! |  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-5-amd64', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30854, moz:profile: /tmp/rust_mozprofile.7QHPd7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-5-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a846b17-d7ad-40dc-967d-bd4c80fea164
+*** Element info: {Using=xpath, value=/html/body/div[2]/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDef.stepDefinitions.devo_receber_a_mensagem(stepDefinitions.java:93)
+	at ✽.And Devo receber a mensagem "Você tem certeza que deseja remover esses dados ?"(/home/ronaldo/NetBeansProjects/bdd-cachaça-gestor/BDD/CRUD/src/test/resources/acceptance/insumo-features.feature:67)
